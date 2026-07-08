@@ -1,0 +1,15 @@
+Imported Excel dataset.
+
+Changed data types.
+
+Removed duplicates.
+
+Removed blank rows.
+
+Renamed columns.
+
+Formatted currency.
+
+Created Month column.
+
+Loaded cleaned data.

@@ -1,0 +1,8 @@
+Month Name =
+FORMAT(Sales_Data[OrderDate],"MMMM")
+
+Year =
+YEAR(Sales_Data[OrderDate])
+
+Quarter =
+"Q"&FORMAT(Sales_Data[OrderDate],"Q")

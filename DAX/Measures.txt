@@ -1,0 +1,17 @@
+Total Sales =
+SUM(Sales_Data[TotalSales])
+
+Total Profit =
+SUM(Sales_Data[Profit])
+
+Total Orders =
+COUNTROWS(Sales_Data)
+
+Total Quantity =
+SUM(Sales_Data[Quantity])
+
+Average Order Value =
+DIVIDE([Total Sales],[Total Orders])
+
+Profit Margin % =
+DIVIDE([Total Profit],[Total Sales])
